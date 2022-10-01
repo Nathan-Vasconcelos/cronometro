@@ -1,0 +1,45 @@
+body {
+    background: rgb(231, 226, 226);
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2em;
+    color: rgb(93, 187, 93);
+}
+
+.cronometro {
+    text-align: center;
+}
+
+.cronometro h1 {
+    font-size: 5em;
+    margin: 0.5em 0;
+}
+
+.cronometro button {
+    height: 4em;
+    width: 6.3em;
+    font-size: 1.5em;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 0 0.3em;
+    border-radius: 5px;
+}
+
+.cronometro i {
+    font-size: 2em;
+}
+
+#btn-iniciar {
+    background: green;
+}
+
+#btn-pausar {
+    background: orange;
+}
+
+#btn-parar {
+    background: red;
+}
