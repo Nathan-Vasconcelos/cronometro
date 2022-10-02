@@ -24,7 +24,7 @@ body {
     border: none;
     color: white;
     cursor: pointer;
-    margin: 0 0.3em;
+    margin: 0.2em 0.3em;
     border-radius: 5px;
 }
 
@@ -42,4 +42,37 @@ body {
 
 #btn-parar {
     background: red;
+}
+
+#btn-alarme {
+    background: green;
+    display: block;
+    margin: 1.5em auto;
+    width: 12em;
+}
+
+#confirmar {
+    display: none;
+    background: green;
+    margin: 1.5em auto;
+    width: 12em;
+}
+
+#parar-alarme {
+    display: none;
+    background: red;
+    margin: 1.5em auto;
+    width: 12em;
+}
+
+.inut-alarme {
+    display: none;
+    margin-top: 1em;
+    width: 6em;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 4em;
+    border: none;
+    border-radius: 5px;
 }
